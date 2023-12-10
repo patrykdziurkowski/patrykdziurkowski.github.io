@@ -1,2 +1,9 @@
+Wybrane wyszukiwarki: Google, Bing, DuckDuckGo
+
 03.12.2023 r.
 Utworzenie pustej strony na GitHub Pages
+
+10.12.2023 r.
+Wnioski: Samo utworzenie strony nie sprawiło, iż strona była indeksowana na wybranych wyszukiwarkach.
+Dodanie do strony odpowiednich metadanych (opis strony, tytuł oraz tagi).
+
