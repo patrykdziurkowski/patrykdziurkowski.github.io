@@ -7,3 +7,7 @@ Utworzenie pustej strony na GitHub Pages
 Wnioski: Samo utworzenie strony nie sprawiło, iż strona była indeksowana na wybranych wyszukiwarkach.
 Dodanie do strony odpowiednich metadanych (opis strony, tytuł oraz tagi).
 
+18.12.2023 r.
+Wnioski: Strona dalej nie została samoistnie zaindeksowana przez Google, Bing oraz DuckDuckGo.
+Ręczne zgłoszenie strony do Google Search Console i Bing Webmaster Tools. DuckDuckGo nie posiada żadnego narzędzia do zgłoszenia indeksowania strony.
+
