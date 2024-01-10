@@ -1,0 +1,178 @@
+img
+{
+    max-width: 100%;
+    height:auto;
+}
+
+.panel
+{
+    padding: 2em;
+}
+
+.project-panel
+{
+    padding: 4em;
+    text-align: center;
+}
+
+.project-img
+{
+    height: 4em;
+    width: 4em;
+}
+
+.navbar > *
+{
+    margin: auto 1em;
+}
+
+.hero-section
+{
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+.hero-section > .container
+{
+    flex:1;
+}
+
+.skill-item
+{
+    padding: 1em;
+} 
+
+.summary-info
+{
+    margin: 3em auto;
+}
+
+.summary-info > p
+{
+    font-size: 1.5em;
+}
+
+.contact-info > *
+{
+    margin: auto 0.2em;
+}
+
+.nav-link
+{
+    text-align: right;
+}
+
+.text-highlight
+{
+    color: #dd8924;
+}
+
+.link-icon
+{
+    height: 2em;
+    width: 2em;
+}
+
+.section-icon
+{
+    height: 10em;
+    width: 10em;
+    float: right;
+}
+
+.min
+{
+    height: min-content;
+}
+.max
+{
+    height: max-content;
+}
+
+.flex-grow
+{
+    flex-grow: 1;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.profile-picture-section
+{
+    padding: 10%;
+}
+
+.profile-picture-container
+{
+    position: relative;
+    
+}
+
+.skill-dot-empty
+{
+    float: left;
+    margin: 0.25em;
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    background-color: lightgray;
+}
+.skill-dot-filled
+{
+    float: left;
+    margin: 0.25em;
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    background-color: #dd8924;
+}
+
+.profile-picture
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.profile-circle-1
+{
+    border-radius: 100%;
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 15%;
+    left: 20%;
+    background-color: #e6a429;
+    z-index: -2;
+}
+
+.profile-circle-2
+{
+    border-radius: 100%;
+    position: absolute;
+    bottom: -15%;
+    right: -10%;
+    width: 30%;
+    height: 30%;
+    background-color: #dd8924;
+    z-index: -1;
+}
+
+footer
+{
+    height: 40vh;
+}
+
+
+@media (min-width: 768px) 
+{
+    .profile-picture-section
+    {
+        padding: 5%;
+    }
+}

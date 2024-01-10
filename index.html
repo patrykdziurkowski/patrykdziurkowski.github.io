@@ -11,9 +11,236 @@
   <meta name="google-site-verification" content="Rr4Brae0I1EwQomMTm3gkhqQRHXGtAGzG2B0OQYQURw" />
   <meta name="msvalidate.01" content="4398B8FAB4BD5E58D6F9094517877E01" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>W.I.P.</h1>
+  <div class="hero-section">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">patrykdziurkowski.github.io</a>
+      <span class="navbar-text text-secondary small d-none d-md-inline">patryk.j.dziurkowski@gmail.com</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Personal projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- SUMMARY -->
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="row flex-grow justify-self-stretch">
+        <section class="summary-info align-self-center order-1 order-md-0 col-md-6">
+          <h1>Hey there!</h1>
+          <p>I'm <strong class="text-highlight">Patryk Dziurkowski</strong>
+          <br>
+          And I'm a C# Developer</p>
+          <section class="contact-info">
+              <a href="https://www.linkedin.com/in/patrykdziurkowski/" target="_blank"><img src="svg/linkedin.svg" alt="LinkedIn icon" class="link-icon"></a>
+              <a href="https://github.com/patrykdziurkowski" target="_blank"><img src="svg/github.svg" alt="GitHub icon" class="link-icon"></a>
+              <span class="text-secondary d-md-none">patryk.j.dziurkowski@gmail.com</span>
+          </section>
+        </section>
+        <div class="flex-grow profile-picture-section order-0 order-md-1 col-md-6">
+          <div class="profile-picture-container">
+            <img src="img/profile.png" alt="picture of website owner" class="profile-picture rounded-circle">
+            <div class="profile-circle-1"></div>
+            <div class="profile-circle-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="container-fluid bg-light panel">
+    <div class="row">
+      <h1 id="skills" class="text-center display-5">Skills</h1>
+      <div class="col-12 col-sm-10 col-lg-10 col-xl-8 mx-auto">
+        <div class="row">
+          <section class="skill-item col-12 col-lg-6">
+            <div class="row">
+              <span class="col">C#</span>
+              <div class="col">
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <br>
+                <span class="text-secondary small">Intermediate</span>
+              </div>
+            </div>
+          </section>
+          <section class="skill-item col-12 col-lg-6">
+            <div class="row">
+              <span class="col">OOP and design patterns</span>
+              <div class="col">
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-empty"></div>
+                <br>
+                <span class="text-secondary small">Advanced</span>
+              </div>
+            </div>
+          </section>
+          <section class="skill-item col-12 col-lg-6">
+            <div class="row">
+              <span class="col">Docker</span>
+              <div class="col">
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <br>
+                <span class="text-secondary small">Beginner</span>
+              </div>
+            </div>
+          </section>
+          <section class="skill-item col-12 col-lg-6">
+            <div class="row">
+              <span class="col">ASP.NET Core MVC, WebAPI</span>
+              <div class="col">
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <br>
+                <span class="text-secondary small">Intermediate</span>
+              </div>
+            </div>
+          </section>
+          <section class="skill-item col-12 col-lg-6">
+            <div class="row">
+              <span class="col">Unit and integration testing</span>
+              <div class="col">
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <br>
+                <span class="text-secondary small">Intermediate</span>
+              </div>
+            </div>
+          </section>
+          <section class="skill-item col-12 col-lg-6">
+            <div class="row">
+              <span class="col">Git</span>
+              <div class="col">
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <br>
+                <span class="text-secondary small">Beginner</span>
+              </div>
+            </div>
+          </section>
+          <section class="skill-item col-12 col-lg-6">
+            <div class="row">
+              <span class="col">WPF</span>
+              <div class="col">
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <br>
+                <span class="text-secondary small">Acquainted</span>
+              </div>
+            </div>
+          </section>
+          <section class="skill-item col-12 col-lg-6">
+            <div class="row">
+              <span class="col">Dapper, EFCore</span>
+              <div class="col">
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-filled"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <div class="skill-dot-empty"></div>
+                <br>
+                <span class="text-secondary small">Beginner</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <span class="text-center mt-5">In addition to all this, I also speak Polish natively and am an advanced English speaker (C1 certified).</span>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="container-fluid panel mb-5">
+    <div class="row">
+      <h1 id="education" class="text-center display-5">Education</h1>
+      <div class="row justify-content-center align-items-center">
+        <div class="col">
+          <img src="svg/mortarboard.svg" alt="mortarboard icon" class="section-icon">
+        </div>
+        <article class="col">
+          <span class="text-secondary small">2021-2025</span><br>
+          <span>Computer Science at Faculty of Science and Technology</span><br>
+          <span>University of Silesia in Katowice, Poland</span>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <!-- PERSONAL PROJECTS -->
+  <div class="container-fluid bg-light panel">
+    <div class="row">
+      <h1 id="projects" class="text-center display-5 mb-3">Personal projects</h1>
+      <section class="col project-panel">
+        <a href="https://github.com/patrykdziurkowski/SocialMediaWebsite" target="_blank"><img src="svg/github.svg" alt="GitHub icon" class="project-img"></a>
+        <h2 class="h4 text-center">SocialMediaWebsite</h2>
+        <p>An unfinished ASP.NET Core MVC website that showcases what I've been able to learn with Docker so far.</p>
+      </section>
+      <section class="col project-panel">
+        <a href="https://github.com/patrykdziurkowski/EmployeeManagementApp" target="_blank"><img src="svg/github.svg" alt="GitHub icon" class="project-img"></a>
+        <h2 class="h4 text-center">EmployeeManagementApp</h2>
+        <p>Originally a university project which I've improved in order to learn about building WPF desktop apps.</p>
+      </section>
+      <section class="col project-panel">
+        <a href="https://github.com/patrykdziurkowski/ATM" target="_blank"><img src="svg/github.svg" alt="GitHub icon" class="project-img"></a>
+        <h2 class="h4 text-center">ATM</h2>
+        <p>My first ever C# project made using ASP.NET Core WebAPI.</p>
+      </section>
+    </div>
+  </div>
+
+ <!-- CONTACT -->
+ <div class="container-fluid panel">
+  <div class="row mb-5">
+    <h1 id="contact" class="text-center display-5">So what are you waiting for?</h1>
+    <span class="text-center mt-3">Contact me via email <strong class="text-highlight">patryk.j.dziurkowski@gmail.com</strong> or alternatively through LinkedIn</span>
+  </div>
+</div>
+
+  <!-- FOOTER -->
+  <footer class="container-fluid bg-black panel">
+    <div class="row"></div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

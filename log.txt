@@ -11,3 +11,7 @@ Dodanie do strony odpowiednich metadanych (opis strony, tytuł oraz tagi).
 Wnioski: Strona dalej nie została samoistnie zaindeksowana przez Google, Bing oraz DuckDuckGo.
 Ręczne zgłoszenie strony do Google Search Console i Bing Webmaster Tools. DuckDuckGo nie posiada żadnego narzędzia do zgłoszenia indeksowania strony.
 
+10.01.2024 r.
+Wnioski: Strona dalej nie wyświetla się w wyszukiwaniach Google, Bing oraz DuckDuckGo.
+Urozmaicenie treści na stronie - dodanie większej ilości tekstu, sekcji oraz poprawki stylistyczne. Ponowne zgłoszenie do indeksowania Google i Bing.
+
