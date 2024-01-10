@@ -166,7 +166,13 @@ img
     width: 30%;
     height: 30%;
     background-color: #dd8924;
-    z-index: -1;
+    z-index: 1;
+
+    animation-name: smallcirclemove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
 }
 
 footer
@@ -202,5 +208,24 @@ footer
     .profile-picture-section
     {
         padding: 5%;
+    }
+}
+
+@keyframes smallcirclemove
+{
+    0%
+    {
+        bottom: -15%;
+        right: -10%;
+    }
+    50%
+    {
+        bottom: -10%;
+        right: -5%;
+    }
+    100%
+    {
+        bottom: -15%;
+        right: -10%;
     }
 }
