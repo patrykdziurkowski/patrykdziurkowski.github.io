@@ -4,6 +4,12 @@ img
     height:auto;
 }
 
+.wave-container
+{
+    position: relative;
+    height: 30em;
+}
+
 .panel
 {
     padding: 2em;
@@ -166,6 +172,28 @@ img
 footer
 {
     height: 40vh;
+}
+
+.custom-shape-divider-bottom-1704907159 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1704907159 svg {
+    position: relative;
+    display: block;
+    width: 2500px;
+    height: 318px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1704907159 .shape-fill {
+    fill: #e6a429;
 }
 
 
