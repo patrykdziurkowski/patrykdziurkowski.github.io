@@ -15,3 +15,6 @@ Ręczne zgłoszenie strony do Google Search Console i Bing Webmaster Tools. Duck
 Wnioski: Strona dalej nie wyświetla się w wyszukiwaniach Google, Bing oraz DuckDuckGo.
 Urozmaicenie treści na stronie - dodanie większej ilości tekstu, sekcji oraz poprawki stylistyczne. Ponowne zgłoszenie do indeksowania Google i Bing.
 
+12.01.2024 r.
+Wnioski: Strona dalej nie została zaindeksowana przez Google, Bing oraz DuckDuckGo.
+W celu przyśpieszenia procesu indeksowania, dodano link z profilu LinkedIn oraz GitHub do strony. Ponowne zgłoszenie do indeksowania.
