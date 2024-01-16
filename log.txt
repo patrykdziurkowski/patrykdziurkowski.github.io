@@ -21,4 +21,8 @@ W celu przyśpieszenia procesu indeksowania, dodano link z profilu LinkedIn oraz
 
 14.01.2024 r.
 Wnioski: Brak zaindeksowania strony przez wszystkie trzy wyszukiwarki.
-Dodanie pliku robots.txt oraz meta tagu robots.
+Dodanie pliku robots.txt oraz meta tagu robots. Ponowne zgłoszenie do indeksowania.
+
+16.01.2024 r.
+Wnioski: Brak zaindeksowania strony przez wszystkie trzy wyszukiwarki.
+Dodanie pliku sitemap.xml i dodanie sitemap'y w Google Search Console i Bing Webmaster Tools. Ponowne zgłoszenie do indeksowania.
