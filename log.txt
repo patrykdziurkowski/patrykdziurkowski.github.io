@@ -1,3 +1,4 @@
+Url strony: patrykdziurkowski.github.io
 Wybrane wyszukiwarki: Google, Bing, DuckDuckGo
 
 03.12.2023 r.
@@ -26,3 +27,6 @@ Dodanie pliku robots.txt oraz meta tagu robots. Ponowne zgłoszenie do indeksowa
 16.01.2024 r.
 Wnioski: Brak zaindeksowania strony przez wszystkie trzy wyszukiwarki.
 Dodanie pliku sitemap.xml i dodanie sitemap'y w Google Search Console i Bing Webmaster Tools. Ponowne zgłoszenie do indeksowania.
+
+Wnioski na 17.01.2024 r.:
+Przeglądarki Google, Bing i DuckDuckGo nie zdążyły zaindeksować strony.
